@@ -8,24 +8,24 @@
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
     <title>Avidus Interactive</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/favicons/favicon-avidus.svg')}}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/favicons/favicon-avidus.svg')}}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('images/favicons/favicon-avidus.svg')}}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('/images/favicons/favicon-avidus.svg')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('/images/favicons/favicon-avidus.svg')}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('/images/favicons/favicon-avidus.svg')}}">
     <link rel="manifest" href="{{ asset('images/favicons/favicon-avidus.svg')}}">
     <!-- plugin scripts -->
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('css/animate.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/magnific-popup.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/swiper.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('plugins/dimon-icons/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('/css/animate.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('/css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('/css/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('/css/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{ asset('/css/font-awesome.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('/css/swiper.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('/plugins/dimon-icons/style.css')}}">
 
     <!-- template styles -->
-    <link rel="stylesheet" href="{{ asset('css/style.css')}}">
-    <link rel="stylesheet" href="{{ asset('css/responsive.css')}}">
+    <link rel="stylesheet" href="{{ asset('/css/style.css')}}">
+    <link rel="stylesheet" href="{{ asset('/css/responsive.css')}}">
 
     <!-- slick slider -->
 
@@ -460,20 +460,20 @@
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
 
 
-    <script src="{{ asset('js/jquery.min.js') }}"></script>
-    <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('js/waypoints.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.counterup.min.js') }}"></script>
-    <script src="{{ asset('js/TweenMax.min.js') }}"></script>
-    <script src="{{ asset('js/wow.js') }}"></script>
-    <script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.ajaxchimp.min.js') }}"></script>
-    <script src="{{ asset('js/swiper.min.js') }}"></script>
-    <script src="{{ asset('js/jquery.easing.min.js') }}"></script>
+    <script src="{{ asset('/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('/js/waypoints.min.js') }}"></script>
+    <script src="{{ asset('/js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ asset('/js/TweenMax.min.js') }}"></script>
+    <script src="{{ asset('/js/wow.js') }}"></script>
+    <script src="{{ asset('/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('/js/jquery.ajaxchimp.min.js') }}"></script>
+    <script src="{{ asset('/js/swiper.min.js') }}"></script>
+    <script src="{{ asset('/js/jquery.easing.min.js') }}"></script>
 
     <!-- template scripts -->
-    <script src="{{ asset('js/theme.js') }}"></script>
+    <script src="{{ asset('/js/theme.js') }}"></script>
 </body>
 
 </html>
