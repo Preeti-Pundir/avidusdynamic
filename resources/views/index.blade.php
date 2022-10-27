@@ -60,7 +60,7 @@
                                 
                             </li>
                             <li class="scrollToLink">
-                                <a href="/about">About Us</a>
+                                <a href="{{ route('about') }}">About Us</a>
 
                             </li>
                             <li class="scrollToLink">
