@@ -27,7 +27,7 @@ Route::post('/send-email',[Contactuscontroller::class,'sendEmail'])->name('Sende
 
 Route::view('/','index');
 Route::view('/contact','contact');
-Route::view('/about','about');
+Route::view('/about','about')->name('about');
 Route::view('/career','career');
 Route::view('/solutions','solutions');
 
