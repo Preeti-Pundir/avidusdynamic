@@ -6,6 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
     <title>Solutions</title>
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/favicons/favicon-avidus.svg')}}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('images/favicons/favicon-avidus.svg')}}">
