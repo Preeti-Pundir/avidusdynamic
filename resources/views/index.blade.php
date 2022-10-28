@@ -199,7 +199,8 @@
                     <div class="col-lg-4 col-md-12 col-sm-12 wow fadeInUp" data-wow-duration="1500ms">
                         <div class="blog-one__single">
                             <div class="blog-one__image">
-                                <img src="\images\mocs\Picture1.png" alt="">
+                                {{-- <img src="\images\mocs\Picture1.png" alt=""> --}}
+                                <img src="\images\mocs\Group 2558.jpg" alt="">
                                 <a class="blog-one__more-link" href="news-details.html"><i class="fa fa-link"></i>
                                     <!-- /.fa fa-link --></a>
                             </div><!-- /.blog-one__image -->
@@ -209,7 +210,8 @@
                     <div class="col-lg-4 col-md-12 col-sm-12 wow fadeInDown" data-wow-duration="1500ms">
                         <div class="blog-one__single">
                             <div class="blog-one__image">
-                                <img src="\images\mocs\Picture2.png" alt="">
+                                
+                                <img src="\images\mocs\Group 2559.jpg" alt="">
                                 <a class="blog-one__more-link" href="news-details.html"><i class="fa fa-link"></i>
                                     <!-- /.fa fa-link --></a>
                             </div><!-- /.blog-one__image -->
@@ -219,7 +221,8 @@
                     <div class="col-lg-4 col-md-12 col-sm-12 wow fadeInUp" data-wow-duration="1500ms">
                         <div class="blog-one__single">
                             <div class="blog-one__image">
-                                <img src="\images\mocs\Picture3.png" alt="">
+                               
+                                <img src="\images\mocs\Group 2560.jpg" alt="">
                                 <a class="blog-one__more-link" href="news-details.html"><i class="fa fa-link"></i>
                                     <!-- /.fa fa-link --></a>
                             </div><!-- /.blog-one__image -->
@@ -430,13 +433,16 @@
 
    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/assets/css/chat.min.css">
         <script>
-            var botmanWidget = {
+             var botmanWidget = {
+           // var AvidusInteractive = {
                 aboutText: 'ssdsd',
-                introMessage: "✋ Hi! I'm form AvidusInteractive.com"
+                // introMessage: "✋ Hi! I'm form AvidusInteractive.com"
+                introMessage: "✋ Hi Welcome to Avidus Interactive.This feature is temporary unavailable. To contact us go to Contact Us page."
             };
         </script>
       
-        <script src='https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/js/widget.js'></script>
+        {{-- <script src='https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/js/widget.js'></script> --}}
+                 <script src='{{ asset('js/botman.js')}}'></script>
          
             <!-- Chat bot  -->
 
