@@ -159,7 +159,12 @@
                         <p class="ptag pr-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
                     </div>
                     <div>
-                    <button class="apply-btn">Apply Now</button>
+                        <button class="apply-btn" data-toggle="modal" data-target="#exampleModal">Apply Now
+                        
+                        </button>
+
+                    {{-- <button class="apply-btn"data-toggle="modal" data-target="#exampleModal" >Apply Now</button>
+                --}}
                 </div>
                 </div>
             </div>
@@ -171,7 +176,12 @@
                         <p class="ptag pr-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
                     </div>
                     <div>
-                    <button class="apply-btn">Apply Now</button>
+                        <button class="apply-btn" data-toggle="modal" data-target="#exampleModal">Apply Now
+                        
+                        </button>
+
+                    {{-- <button class="apply-btn" data-toggle="modal" data-target="#exampleModal">Apply Now</button>
+                 --}}
                 </div>
                 </div>
             </div><div class="col-lg-6 p-5">
@@ -182,7 +192,12 @@
                         <p class="ptag pr-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
                     </div>
                     <div>
-                    <button class="apply-btn">Apply Now</button>
+                        <button class="apply-btn" data-toggle="modal" data-target="#exampleModal">Apply Now
+                        
+                        </button>
+
+                    {{-- <button class="apply-btn" data-toggle="modal" data-target="#exampleModal">Apply Now</button>
+                 --}}
                 </div>
                 </div>
             </div><div class="col-lg-6 p-5">
@@ -193,7 +208,11 @@
                         <p class="ptag pr-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
                     </div>
                     <div>
-                    <button class="apply-btn">Apply Now</button>
+                        <button class="apply-btn" data-toggle="modal" data-target="#exampleModal">Apply Now
+                        
+                        </button>
+{{--                         
+                    <button class="apply-btn" data-toggle="modal" data-target="#exampleModal">Apply Now</button> --}}
                 </div>
                 </div>
             </div><div class="col-lg-6 p-5">
@@ -204,7 +223,11 @@
                         <p class="ptag pr-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
                     </div>
                     <div>
-                    <button class="apply-btn">Apply Now</button>
+                        <button class="apply-btn" data-toggle="modal" data-target="#exampleModal">Apply Now
+                        
+                        </button>    
+                    {{-- <button class="apply-btn" data-toggle="modal" data-target="#exampleModal">Apply Now</button>
+                 --}}
                 </div>
                 </div>
             </div><div class="col-lg-6 p-5">
@@ -215,7 +238,9 @@
                         <p class="ptag pr-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod</p>
                     </div>
                     <div>
-                    <button class="apply-btn">Apply Now</button>
+                    <button class="apply-btn" data-toggle="modal" data-target="#exampleModal">Apply Now
+                        
+                    </button>
                 </div>
                 </div>
             </div>
@@ -225,6 +250,61 @@
 </section>
 
 
+
+
+
+
+<!-- Button trigger modal -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            
+                <form action="/carrer-email" method="post" enctype="multipart/form-data"> 
+                
+                {{ csrf_field() }}
+                <div class="form-group">
+                <label for="Product Name">Name</label>
+                <input type="text" name="name" class="form-control"  placeholder=" Name" >
+                
+                <label for="Product Name">Email</label>
+                <input type="text" name="email" class="form-control"  placeholder="email" >
+                
+                <label for="Product Name">Phone</label>
+                <input type="text" name="phone" class="form-control"  placeholder="Phone number" >
+                
+                <label for="cars">Applying for:</label>
+                
+                    <select name="job" id="job">
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="four">4</option>
+                    </select>
+                
+                </div>
+                <label for="Product Name">Product photos (can attach more than one):</label>
+                <br />
+                <input type="file" class="form-control" name="photos[]" multiple />
+                <br /><br />
+                <input type="submit" class="btn btn-primary" value="Upload" />
+                </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 <x-footer/>
 
 
@@ -246,3 +326,4 @@
 </body>
 
 </html>
+

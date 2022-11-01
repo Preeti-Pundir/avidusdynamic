@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Contactuscontroller;
 use app\Http\Controllers\BotManController;
+use App\Http\Controllers\TestfileuploadController;
 
 
 
@@ -24,6 +25,8 @@ use app\Http\Controllers\BotManController;
 
 
 Route::post('/send-email',[Contactuscontroller::class,'sendEmail'])->name('Sendemail');
+Route::post('/carrer-email',[Contactuscontroller::class,'uploadSubmit'])->name(' uploadSubmit');
+
 
 Route::view('/','index');
 Route::view('/contact','contact');
@@ -31,5 +34,7 @@ Route::view('/about','about')->name('about');
 Route::view('/career','career');
 Route::view('/solutions','solutions');
 
-Route::match(['get', 'post'], '/botman', 'BotManController@handle');
+//Route::match(['get', 'post'], '/botman', 'BotManController@handle');
 
+Route::match(['get', 'post'], '/botman', [BotManController::class,'handle']);
+// 
